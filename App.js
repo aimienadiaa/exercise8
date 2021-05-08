@@ -54,33 +54,33 @@ export default function App() {
 
       if(variable=='Clouds'){
         var icon=require('./components/cloudy.png');
-        var subs='Everywhere'
+        var subs='Have a good day!'
         seticon(icon);
         setCaption(subs);
       }
       else if(variable=='Rain'){
         var icon=require('./components/rain.png');
-        var subs='Lets have a coffee'
+        var subs='Its raining outside. Stay home!'
         seticon(icon);
         setCaption(subs);
       }
 
       else if(variable=='Clear'){
         var icon=require('./components/sunny.png');
-        var subs='Its sunny day'
+        var subs='Its sunny day!'
         seticon(icon);
         setCaption(subs);
       }
 
       else if(variable=='Drizzle'){
         var icon=require('./components/drizzle.png');
-        var subs='Partially raining...'
+        var subs='Lets have some coffee'
         seticon(icon);
         setCaption(subs);
       }
-      else if(variable=='Mist'){
-        var icon=require('./components/mist.png');
-        var subs='Dont roam in forests!'
+      else if(variable=='Haze'){
+        var icon=require('./components/haze.png');
+        var subs='Be carefull'
         seticon(icon);
         setCaption(subs);
       }
