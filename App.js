@@ -117,15 +117,13 @@ const styles = StyleSheet.create({
   },
 
   text2: {
-   
     fontSize:30
-  
   },
+  
   image: {
     marginTop:50,
     height:300,
     width:300,
-
   },
 
   Temp:{
