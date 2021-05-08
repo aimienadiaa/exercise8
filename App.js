@@ -94,8 +94,9 @@ export default function App() {
     
    return (
     <View  style={[styles.container, { backgroundColor: 'skyblue'}]}>
-     
-      <Text >Nor Aimie Nadia binti Yusrin (1710006)</Text>
+	  <Text >WEATHERAPPS</Text>
+      <Text >Nor Aimie Nadia binti Yusrin</Text>
+	  <Text > (1710006)</Text>
       <Image style={styles.image} source={icon} />
       <Text style={styles.Temp}>{temperature}º</Text>
       <Text style={styles.text2}>{weather}</Text>
@@ -112,7 +113,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems:'center',
-    marginTop:40
+    marginTop:30
   
   },
 
