@@ -93,7 +93,7 @@ export default function App() {
      }
     
    return (
-    <View  style={[styles.container, { backgroundColor: 'powderblue'}]}>
+    <View  style={[styles.container, { backgroundColor: 'skyblue'}]}>
      
       <Text >Nor Aimie Nadia binti Yusrin (1710006)</Text>
       <Image style={styles.image} source={icon} />
@@ -112,12 +112,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems:'center',
-    marginTop:50
+    marginTop:40
   
   },
 
   text2: {
-    fontSize:30
+    fontSize:35
   },
   
   image: {
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   },
 
   Temp:{
-    fontSize:50
+    fontSize:30
   }
  
 });
