@@ -53,33 +53,33 @@ export default function App() {
       let variable=weather1
 
       if(variable=='Clouds'){
-        var icon=require('./weatherIcon/cloudy.png');
+        var icon=require('./components/cloudy.png');
         var subs='Everywhere'
         seticon(icon);
         setCaption(subs);
       }
       else if(variable=='Rain'){
-        var icon=require('./weatherIcon/rain.png');
-        var subs='Get a cup of coffee'
+        var icon=require('./components/rain.png');
+        var subs='Lets have a coffee'
         seticon(icon);
         setCaption(subs);
       }
 
       else if(variable=='Clear'){
-        var icon=require('./weatherIcon/sunny.png');
-        var subs='So Sunny. Do not forget to wear sunscreen'
+        var icon=require('./components/sunny.png');
+        var subs='Its sunny day'
         seticon(icon);
         setCaption(subs);
       }
 
       else if(variable=='Drizzle'){
-        var icon=require('./weatherIcon/drizzle.png');
+        var icon=require('./components/drizzle.png');
         var subs='Partially raining...'
         seticon(icon);
         setCaption(subs);
       }
       else if(variable=='Mist'){
-        var icon=require('./weatherIcon/mist.png');
+        var icon=require('./components/mist.png');
         var subs='Dont roam in forests!'
         seticon(icon);
         setCaption(subs);
